@@ -39,3 +39,6 @@ The `Rakefile` manages the QMK firmware source code:
     rake qmk:install  # Install QMK dependencies
     rake qmk:update   # Update QMK firmware
     rake uninstall    # Remove symlinks from QMK source tree
+
+## Flashing
+    LD_LIBRARY_PATH=/lib/x86_64-linux-gnu dfu-util -d 0483:df11 -a 0 -s 0x08000000:leave -D ./planck_rev6_my.bin
