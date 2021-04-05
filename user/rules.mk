@@ -5,8 +5,9 @@ COMMAND_ENABLE       = no   # Disable shift combination, which conflicts with sh
 CONSOLE_ENABLE       = no
 DYNAMIC_MACRO_ENABLE = yes
 MIDI_ENABLE          = no
-MOUSEKEY_ENABLE      = no
+#MOUSEKEY_ENABLE      = no
 NKRO_ENABLE          = yes
+COMBO_ENABLE         = yes
 
 SRC += my.c
 
